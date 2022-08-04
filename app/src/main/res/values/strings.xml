@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Homework Yandex</string>
+    <string name="label_save">сохранить</string>
+    <string name="label_what_should_do">Что надо сделать</string>
+    <string name="label_important">Приоритет</string>
+</resources>
