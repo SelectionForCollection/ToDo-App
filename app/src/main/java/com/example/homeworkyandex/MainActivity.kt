@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // do not work
         findViewById<ImageButton>(R.id.add_task).setOnClickListener {
             Toast.makeText(this, "asdasdasd", Toast.LENGTH_LONG).show()
             startActivity(Intent(this, CreateTaskActivity::class.java))

@@ -30,7 +30,6 @@ class TaskAdapter(mDataSet: ArrayList<Task>): RecyclerView.Adapter<TaskAdapter.T
 
     override fun onBindViewHolder(holder: TaskHolder, position: Int) {
         holder.bind(taskList[position])
-
     }
 
     override fun getItemCount(): Int {
